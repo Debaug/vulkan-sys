@@ -1,8 +1,13 @@
 [package]
 name = "vulkan-sys"
-version = "0.1.0"
+version = "0.2.0"
+authors = ["Thibault Guignard"]
+license = "MIT or Apache-2.0"
+documentation = "https://vulkan.lunarg.com/doc/view/latest/windows/apispec.html"
+description = "Direct bindings for the Vulkan API"
+keywords = ["vulkan", "graphics"]
+categories = ["external-ffi-bindings", "graphics"]
 edition = "2021"
-
 
 [build-dependencies]
 bindgen = "0.60"
